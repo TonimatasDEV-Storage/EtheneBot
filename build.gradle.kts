@@ -22,12 +22,12 @@ repositories {
 }
 
 dependencies {
-    implementation("net.dv8tion:JDA:6.2.0") {
+    implementation("net.dv8tion:JDA:6.3.0") {
         exclude(module = "opus-java")
     }
 
     // https://github.com/qos-ch/logback/releases
-    implementation("ch.qos.logback:logback-classic:1.5.23")
+    implementation("ch.qos.logback:logback-classic:1.5.24")
     implementation("dev.tonimatas:CJDA:1.0.4")
 }
 

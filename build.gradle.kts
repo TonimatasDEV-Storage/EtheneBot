@@ -27,8 +27,7 @@ dependencies {
     }
 
     // https://github.com/qos-ch/logback/releases
-    implementation("ch.qos.logback:logback-classic:1.5.24")
-    implementation("dev.tonimatas:CJDA:1.0.4")
+    implementation("ch.qos.logback:logback-classic:1.5.29")
 }
 
 application {

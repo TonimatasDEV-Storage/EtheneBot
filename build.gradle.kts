@@ -9,7 +9,7 @@ plugins {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
@@ -17,7 +17,6 @@ group = "dev.tonimatas"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    maven("https://maven.tonimatas.dev/releases")
     mavenCentral()
 }
 

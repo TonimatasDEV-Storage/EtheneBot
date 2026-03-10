@@ -4,7 +4,7 @@ import kotlin.io.path.exists
 plugins {
     application
     `embedded-kotlin`
-    id("com.gradleup.shadow") version "9.3.0"
+    id("com.gradleup.shadow") version "9.3.2"
 }
 
 java {
@@ -22,12 +22,12 @@ repositories {
 }
 
 dependencies {
-    implementation("net.dv8tion:JDA:6.3.0") {
+    implementation("net.dv8tion:JDA:6.3.1") {
         exclude(module = "opus-java")
     }
 
     // https://github.com/qos-ch/logback/releases
-    implementation("ch.qos.logback:logback-classic:1.5.29")
+    implementation("ch.qos.logback:logback-classic:1.5.32")
 }
 
 application {

@@ -1,8 +1,8 @@
-package dev.ethenebot.tonimatas
+package dev.tonimatas.ethene
 
-import dev.ethenebot.tonimatas.data.BotData
-import dev.ethenebot.tonimatas.data.BotToken
-import dev.ethenebot.tonimatas.listener.JoinListener
+import dev.tonimatas.ethene.data.BotData
+import dev.tonimatas.ethene.data.BotToken
+import dev.tonimatas.ethene.listener.JoinListener
 import net.dv8tion.jda.api.JDA
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.entities.Activity

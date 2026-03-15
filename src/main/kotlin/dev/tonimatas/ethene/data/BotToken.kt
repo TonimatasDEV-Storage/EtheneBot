@@ -1,4 +1,4 @@
-package dev.ethenebot.tonimatas.data
+package dev.tonimatas.ethene.data
 
 import net.dv8tion.jda.internal.utils.JDALogger
 import org.slf4j.Logger

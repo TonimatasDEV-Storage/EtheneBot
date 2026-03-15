@@ -1,4 +1,4 @@
-package dev.ethenebot.tonimatas.listener
+package dev.tonimatas.ethene.listener
 
 import net.dv8tion.jda.api.events.guild.member.GuildMemberJoinEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter

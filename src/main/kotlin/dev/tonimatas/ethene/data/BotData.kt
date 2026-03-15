@@ -1,4 +1,4 @@
-package dev.ethenebot.tonimatas.data
+package dev.tonimatas.ethene.data
 
 import java.io.File
 import java.util.*

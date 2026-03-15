@@ -13,8 +13,8 @@ class JoinListener : ListenerAdapter() {
     //var roleId = "1323370508477005865"
 
     // Testing
-    val channelId = "1386794908421193919"
-    val roleId = "1386794676610273420"
+    val channelId = "1471176961735790735"
+    val roleId = "1471920290673201235"
 
     override fun onGuildMemberJoin(event: GuildMemberJoinEvent) {
         val guild = event.guild

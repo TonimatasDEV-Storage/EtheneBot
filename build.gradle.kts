@@ -14,7 +14,7 @@ java {
 }
 
 group = "dev.tonimatas"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -58,6 +58,6 @@ tasks.shadowJar {
     }
 
     manifest {
-        attributes("Main-Class" to "dev.tonimatas.botstudio.Main")
+        attributes("Main-Class" to "dev.tonimatas.ethene.Main")
     }
 }

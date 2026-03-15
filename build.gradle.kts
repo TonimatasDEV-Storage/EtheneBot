@@ -9,7 +9,7 @@ plugins {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(25))
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
@@ -30,7 +30,7 @@ dependencies {
 }
 
 application {
-    
+    mainClass.set("dev.tonimatas.ethene.Main")
 }
 
 tasks.run {

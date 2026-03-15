@@ -2,6 +2,7 @@ package dev.ethenebot.tonimatas
 
 import dev.ethenebot.tonimatas.data.BotData
 import dev.ethenebot.tonimatas.data.BotToken
+import dev.ethenebot.tonimatas.listener.JoinListener
 import net.dv8tion.jda.api.JDA
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.entities.Activity
@@ -25,7 +26,7 @@ class Main {
             .enableCache(CacheFlag.entries)
             .setBulkDeleteSplittingEnabled(false)
             .setMemberCachePolicy(MemberCachePolicy.ALL)
-            .addEventListeners()
+            .addEventListeners(JoinListener())
             .setActivity(Activity.playing("Minecraft"))
             .setAutoReconnect(true)
             .build()
